@@ -1,0 +1,40 @@
+{
+    "manufacturer": "Thomas Nakagawa",
+    "keyboard_name": "towm/3xv2",
+    "maintainer": "Thomas Nakagawa",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": true,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+          [null, "D1", "D0"],
+          ["F4", "F5", "F6"]
+        ]
+      },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0002",
+        "vid": "0x0001"
+    },
+    "layouts": {
+        "LAYOUT_ortho_2x3": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 }
+            ]
+        }
+    }
+}

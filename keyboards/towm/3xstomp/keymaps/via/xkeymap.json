@@ -1,0 +1,20 @@
+{
+    "matrix": {
+        "cols": 3,
+        "rows": 1
+    },
+    "name": "towm/3xstomp",
+    "productId": "0x0083",
+    "vendorId": "0x5453",
+    "keyboard": "towm/3xstomp",
+    "keymap": "via",
+    "layout": "LAYOUT_all",
+    "layers": [
+        [
+            "KC_0",
+            "KC_1",
+            "KC_2"
+        ]
+    ],
+    "encoders": [[{ "ccw": "KC_KB_VOLUME_UP", "cw": "KC_KB_VOLUME_DOWN" }]]
+}

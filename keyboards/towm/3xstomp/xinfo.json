@@ -1,0 +1,65 @@
+{
+    "manufacturer": "Thomas Nakagawa",
+    "keyboard_name": "towm/3xstomp",
+    "maintainer": "Thomas Nakagawa",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["D3", null],
+            ["D2", null],
+            [null, null],
+            [null, null],
+            ["D1", "F4"],
+            ["D0", "F5"],
+            ["D4", "F6"],
+            ["C6", "F7"],
+            ["D7", "B1"],
+            ["E6", "B3"],
+            ["B4", "B2"],
+            ["B5", "B6"]
+        ]
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            {
+                "pin_a": "B4",
+                "pin_b": "B5",
+                "resolution": 4
+            },
+            {
+                "pin_a": "B2",
+                "pin_b": "B6",
+                "resolution": 4
+            }
+        ]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0002",
+        "vid": "0x0001"
+    },
+    "layouts": {
+        "LAYOUT_all": {
+            "layout": [
+                {"label": "FS1", "matrix": [0, 0], "x": 0, "y": 2},
+                {"label": "FS2", "matrix": [1, 0], "x": 1, "y": 2},
+                {"label": "FS3", "matrix": [4, 0], "x": 2, "y": 2},
+                {"label": "ENC1", "matrix": [4, 1], "x": 1, "y": 1},
+                {"label": "ENC2", "matrix": [5, 1], "x": 1, "y": 0}
+            ]
+        }
+    }
+}
