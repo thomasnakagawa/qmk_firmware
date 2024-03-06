@@ -1,0 +1,34 @@
+{
+  "name": "towm/mxstomp_proto2",
+  "vendorId": "0x0001",
+  "productId": "0x0002",
+  "matrix": {
+    "rows": 3,
+    "cols": 3
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2"
+      ],
+      [
+        {
+          "x": 5
+        },
+        "1,0\n\n\n\n\n\n\n\n\ne0"
+      ],
+      [
+        {
+          "y": 2
+        },
+        "2,0",
+        {
+          "x": 5
+        },
+        "2,1"
+      ]
+    ]
+  }
+}
